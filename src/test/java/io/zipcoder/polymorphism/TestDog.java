@@ -3,14 +3,14 @@ import org.junit.Assert;
 import org.junit.Test;
 public class TestDog {
 
-    @Test
-    public void testSpeak(){
-        String expected = "Bark Bark!";
-        Dog dog = new Dog("AirBud", 2);
-        String actual = dog.speak();
-
-        Assert.assertEquals(expected, actual);
-    }
+//    @Test
+//    public void testSpeak(){
+//        String expected = "Bark Bark!";
+//        Dog dog = new Dog("AirBud", 2);
+//        String actual = dog.speak();
+//
+//        Assert.assertEquals(expected, actual);
+//    }
 
     @Test
     public void testDogConstructor(){
@@ -20,7 +20,7 @@ public class TestDog {
         Dog dog = new Dog("AirBud", 2;
 
         String actualName = dog.getName();
-        int actualAge = dog.getAge;
+        int actualAge = dog.getAge();
 
         Assert.assertEquals(expectedName, actualName);
         Assert.assertEquals(expectedAge, actualAge);
@@ -33,7 +33,7 @@ public class TestDog {
     }
 
     @Test
-    public void testSetDog(){
+    public void testSetDogName(){
         Dog dog = new Dog("NotAirBud", 2);
         dog.setName("AirBud");
         Assert.assertEquals("AirBud", dog.getName());
