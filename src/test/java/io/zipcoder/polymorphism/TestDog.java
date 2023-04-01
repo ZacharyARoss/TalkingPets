@@ -17,7 +17,7 @@ public class TestDog {
         int expectedAge = 2;
         String expectedName = "AirBud";
 
-        Dog dog = new Dog("AirBud", 2;
+        Dog dog = new Dog("AirBud", 2);
 
         String actualName = dog.getName();
         int actualAge = dog.getAge();

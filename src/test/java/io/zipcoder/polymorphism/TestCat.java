@@ -20,7 +20,7 @@ public class TestCat {
         int expectedAge = 10;
         String expectedName = "Kitty";
 
-        MainApplication.Cat cat = new MainApplication.Cat("Kitty", 10);
+        Cat cat = new Cat("Kitty", 10);
 
         String actualName = cat.getName();
         int actualAge = cat.getAge();
@@ -37,9 +37,9 @@ public class TestCat {
 
     @Test
     public void testSetCatName(){
-        Dog dog = new Dog("NotKitty", 10);
-        dog.setName("Kitty");
-        Assert.assertEquals("Kitty", testSetCatName().getName());
+        Cat cat = new Cat("NotKitty", 10);
+        cat.setName("Kitty");
+        Assert.assertEquals("Kitty", cat.getName());
 
     }
 
