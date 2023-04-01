@@ -26,6 +26,19 @@ public class TestDog {
         Assert.assertEquals(expectedAge, actualAge);
 
     }
+    @Test
+    public void testGetDogName(){
+        Dog dog = new Dog("Airbud", 2);
+        Assert.assertEquals("AirBud", dog.getName());
+    }
+
+    @Test
+    public void testSetDog(){
+        Dog dog = new Dog("NotAirBud", 2);
+        dog.setName("AirBud");
+        Assert.assertEquals("AirBud", dog.getName());
+
+    }
 }
 
 

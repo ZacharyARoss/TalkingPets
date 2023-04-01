@@ -6,25 +6,12 @@ import java.util.Scanner;
 public class MainApplication {
     public class Pets {
 
-    }
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
 
-    public class Dog extends Pets {
-
-    }
-
-    public class Cat extends Pets {
-
-    }
-
-    public class X extends Pets {
-
-    }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("How many Pets do you have?");
-        String numPets = scanner.nextLine();
+            System.out.println("How many Pets do you have?");
+            String numPets = scanner.nextLine();
+        }
     }
 }
 
