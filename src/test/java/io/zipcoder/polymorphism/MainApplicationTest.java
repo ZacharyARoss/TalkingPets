@@ -4,5 +4,17 @@ import org.junit.Test;
 
 public class MainApplicationTest {
 @Test
-    public void testMe(){}
+    public void testSpeak(){
+
+}
+
+    @Test
+    public void testGetName(){
+
+    }
+
+    @Test
+    public void testSetName(){
+
+    }
 }
