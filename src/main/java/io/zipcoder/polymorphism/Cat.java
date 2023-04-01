@@ -1,6 +1,6 @@
 package io.zipcoder.polymorphism;
 
-public class Cat {
+public class Cat extends Pet{
     String name;
     int age;
     public Cat(String name, int age){
@@ -22,5 +22,10 @@ public class Cat {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String speak(){
+        return "Prrr";
     }
 }
