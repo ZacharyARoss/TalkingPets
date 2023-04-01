@@ -3,14 +3,14 @@ import org.junit.Assert;
 import org.junit.Test;
 public class TestDog {
 
-//    @Test
-//    public void testSpeak(){
-//        String expected = "Bark Bark!";
-//        Dog dog = new Dog("AirBud", 2);
-//        String actual = dog.speak();
-//
-//        Assert.assertEquals(expected, actual);
-//    }
+    @Test
+    public void testSpeak(){
+        String expected = "Bark Bark!";
+        Dog dog = new Dog("AirBud", 2);
+        String actual = dog.speak();
+
+        Assert.assertEquals(expected, actual);
+    }
 
     @Test
     public void testDogConstructor(){
