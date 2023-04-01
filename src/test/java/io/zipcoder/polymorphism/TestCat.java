@@ -9,7 +9,7 @@ public class TestCat {
     @Test
     public void testSpeak(){
     String expected = "Prrr";
-    Cat cat = new Cat("Kitty", 10);
+    MainApplication.Cat cat = new MainApplication.Cat("Kitty", 10);
     String actual = cat.speak();
 
         Assert.assertEquals(expected, actual);
@@ -20,7 +20,7 @@ public class TestCat {
         int expectedAge = 10;
         String expectedName = "Kitty";
 
-        Cat cat = new Cat("Kitty", 10);
+        MainApplication.Cat cat = new MainApplication.Cat("Kitty", 10);
 
         String actualName = cat.getName();
         int actualAge = cat.getAge;
