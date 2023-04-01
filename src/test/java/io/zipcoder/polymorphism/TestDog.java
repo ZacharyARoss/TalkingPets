@@ -28,7 +28,7 @@ public class TestDog {
     }
     @Test
     public void testGetDogName(){
-        Dog dog = new Dog("Airbud", 2);
+        Dog dog = new Dog("AirBud", 2);
         Assert.assertEquals("AirBud", dog.getName());
     }
 
